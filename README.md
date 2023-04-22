@@ -10,13 +10,21 @@
 </br>
 
 <table align="center">
+    <tr align="center">
+    <td WIDTH = 400>
+      <h2 align="center">Raw Video </h2>
+    </td>
+    <td  WIDTH = 400>
+      <h2 align="center">Enhanced Results </h2>
+    </td>
+    </td>
+  </tr>
   <tr align="center">
     <td WIDTH = 400>
       <img src=sample_results/gif_files/Video3.gif width="400">
     </td>
     <td  WIDTH = 400>
-      <img src=sample_results/gif_files/Video3.gif width="400">
-     
+      <img src=sample_results/gif_files/EnhanceVideo3.gif width="400">  
     </td>
   </tr>
   <tr align="center">
@@ -24,7 +32,7 @@
       <img src=sample_results/gif_files/Video4.gif width="400">
     </td>
     <td>
-      <img src=sample_results/gif_files/Enhance Video4.gif width="400">
+      <img src=sample_results/gif_files/EnhanceVideo4.gif width="400">
     </td>
   </tr>
   <tr align="center">
@@ -32,7 +40,7 @@
       <img src=sample_results/gif_files/Video5.gif width="400">
     </td>
     <td>
-      <img src=sample_results/gif_files/Enhance Video5.gif width="400">
+      <img src=sample_results/gif_files/EnhanceVideo5.gif width="400">
     </td>
   </tr>
 
