@@ -9,3 +9,35 @@
 
 </br>
 
+<table align="center">
+  <tr align="center">
+    <td WIDTH = 400>
+      <img src=sample_results/gif_files/Video3.gif width="400">
+    </td>
+    <td  WIDTH = 400>
+      <img src=sample_results/gif_files/Video3.gif width="400">
+     
+    </td>
+  </tr>
+  <tr align="center">
+    <td>
+      <img src=sample_results/gif_files/Video4.gif width="400">
+    </td>
+    <td>
+      <img src=sample_results/gif_files/Enhance Video4.gif width="400">
+    </td>
+  </tr>
+  <tr align="center">
+    <td>
+      <img src=sample_results/gif_files/Video5.gif width="400">
+    </td>
+    <td>
+      <img src=sample_results/gif_files/Enhance Video5.gif width="400">
+    </td>
+  </tr>
+
+  
+
+
+  
+</table>
