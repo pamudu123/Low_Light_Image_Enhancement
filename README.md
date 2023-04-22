@@ -24,7 +24,7 @@
       <img src=sample_results/gif_files/Video3.gif width="400">
     </td>
     <td  WIDTH = 400>
-      <img src=sample_results/gif_files/EnhanceVideo3.gif width="400">
+      <img src=sample_results/gif_files/EnhanceVideo3.gif width="400">  
     </td>
   </tr>
   <tr align="center">
