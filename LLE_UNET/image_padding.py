@@ -18,33 +18,32 @@ set the 'padding_method' variable to either 'center' or 'corner' before running 
 import numpy as np
 import math
 
-def padding_calc(input_dim,multiplier=16):
-  return math.ceil(input_dim/multiplier)*multiplier - input_dim
+def padding_calc(input_dim,multiplier=32):
+    return math.ceil(input_dim/multiplier)*multiplier - input_dim
 
 # Add Padding
 def pad_image(image,mood = "center_padding"):
-  img_h = image.shape[0]
-  img_w = image.shape[1]
+    img_h = image.shape[0]
+    img_w = image.shape[1]
   
-  pad_y = padding_calc(img_h)
-  pad_x = padding_calc(img_w)
-  
-  if mood == "center_padding":
-    pad_y2 = pad_y//2
-    pad_x2 = pad_x//2
+    pad_y = padding_calc(img_h)
+    pad_x = padding_calc(img_w)
+    
+    if mood == "center_padding":
+        pad_y2 = pad_y//2
+        pad_x2 = pad_x//2
 
-    padded_img = image.copy()
-    if pad_y%2 != 0:
-      padded_img = np.pad(image, ((pad_y2, pad_y2+1), (0, 0), (0, 0)), mode='constant')
-    if pad_x%2 != 0:
-      padded_img = np.pad(image, ((0, 0), (pad_x2, pad_x2+1), (0, 0)), mode='constant')
-    if pad_y%2 == 0 & pad_x%2 == 0:
-      padded_img = np.pad(image, ((pad_y2, pad_y2), (pad_x2, pad_x2), (0, 0)), mode='constant')
+        padded_img = image.copy()
+        if pad_y%2 != 0:
+            padded_img = np.pad(image, ((pad_y2, pad_y2+1), (pad_x2, pad_x2), (0, 0)), mode='constant')
+        if pad_x%2 != 0:
+            padded_img = np.pad(image, ((pad_y2, pad_y2), (pad_x2, pad_x2+1), (0, 0)), mode='constant')
+        if (pad_y%2 == 0) & (pad_x%2 == 0):
+            padded_img = np.pad(image, ((pad_y2, pad_y2), (pad_x2, pad_x2), (0, 0)), mode='constant')
 
-  elif mood == "corner_padding":
-    padded_img = np.pad(image, ((0, pad_y), (0, pad_x), (0, 0)), mode='constant')
-
-  return padded_img
+    elif mood == "corner_padding":
+        padded_img = np.pad(image, ((0, pad_y), (0, pad_x), (0, 0)), mode='constant')
+    return padded_img
 
 # Remove Padding
 def inverse_padding(pad_image,image_dim,pad_method="center_padding"):
@@ -69,6 +68,3 @@ def inverse_padding(pad_image,image_dim,pad_method="center_padding"):
 
  
   return extract_image
-
-
-
