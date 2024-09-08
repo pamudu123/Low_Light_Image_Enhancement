@@ -51,8 +51,21 @@
       <img src=sample_results/gif_files/EnhanceVideo5.gif width="400">
     </td>
   </tr>
-
-  
 </table>
 
 
+### **Citation**
+
+Please cite the following work if you use this this research findings, procedures or code:
+
+```bibtex
+@INPROCEEDINGS{10253533,
+  author={Ranasinghe, Pamudu and Muthukuda, Dilshan and Morapitiya, Primash and Dissanayake, Maheshi B and Lakmal, H.K.I.S.},
+  booktitle={2023 IEEE 17th International Conference on Industrial and Information Systems (ICIIS)}, 
+  title={Deep Learning Based Low Light Enhancements for Advanced Driver-Assistance Systems at Night}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={489-494},
+  doi={10.1109/ICIIS58898.2023.10253533}
+}
