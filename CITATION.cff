@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "Please cite this work if you use the research findings, procedures, or code."
+title: "Deep Learning Based Low Light Enhancements for Advanced Driver-Assistance Systems at Night"
+authors:
+  - family-names: "Ranasinghe"
+    given-names: "Pamudu"
+  - family-names: "Muthukuda"
+    given-names: "Dilshan"
+  - family-names: "Morapitiya"
+    given-names: "Primash"
+  - family-names: "Dissanayake"
+    given-names: "Maheshi B"
+  - family-names: "Lakmal"
+    given-names: "H.K.I.S."
+year: 2023
+doi: "10.1109/ICIIS58898.2023.10253533"
+conference:
+  name: "2023 IEEE 17th International Conference on Industrial and Information Systems"
+  acronym: "ICIIS"
+  location: ""
+pages: "489-494"
+keywords:
+  - "Low-Light Image Enhancement"
+  - "Autonomous Vehicles"
+  - "Object Detection"
+  - "Advanced Driver-Assistance System"
+  - "Training"
+  - "Visualization"
+  - "PSNR"
+  - "Computational modeling"
+  - "Computer architecture"
+  - "Sensor phenomena and characterization"
+  - "Cameras"

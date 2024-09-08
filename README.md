@@ -5,9 +5,17 @@
   <h2 align="center">
     Final Year Project (Semester 08) - UOP
   </h2>
+
+<h3>Problem Statement</h3>
+<p>Autonomous driving systems, now common in the automobile industry, rely on sensors like cameras and LIDAR to interpret their surroundings. Recently, cameras have become the primary tool for sensing, but their performance is often hindered by changing light conditions. This research aims to develop an efficient low-light image enhancement system to improve image clarity and interpretation in low-light driving environments.</p3>
+
+
+
+#### The publication associated with this research is available at: [Deep Learning Based Low Light Enhancements for Advanced Driver-Assistance Systems at Night](https://ieeexplore.ieee.org/document/10253533)
 </p>
 
 </br>
+
 
 <table align="center">
     <tr align="center">
@@ -45,7 +53,6 @@
   </tr>
 
   
-
-
-  
 </table>
+
+
