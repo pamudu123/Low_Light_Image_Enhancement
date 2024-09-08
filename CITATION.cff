@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "Deep Learning Based Low Light Enhancements for Advanced Driver-Assistance Systems at Night"
+message: "If you use this software, please cite it as below."
 authors:
   - family-names: "Ranasinghe"
     given-names: "Pamudu"
@@ -11,25 +11,12 @@ authors:
     given-names: "Maheshi B"
   - family-names: "Lakmal"
     given-names: "H.K.I.S."
-year: 2023
+title: "Deep Learning Based Low Light Enhancements for Advanced Driver-Assistance Systems at Night"
 doi: "10.1109/ICIIS58898.2023.10253533"
-conference:
-  name: "2023 IEEE 17th International Conference on Industrial and Information Systems (ICIIS)"
-keywords:
-  - "Training"
-  - "Visualization"
-  - "PSNR"
-  - "Computational modeling"
-  - "Computer architecture"
-  - "Sensor phenomena and characterization"
-  - "Cameras"
-  - "Low-Light Image Enhancement"
-  - "Autonomous Vehicles"
-  - "Object Detection"
-  - "Advanced Driver-Assistance System"
+date-released: 2023
+url: "https://doi.org/10.1109/ICIIS58898.2023.10253533"
 preferred-citation:
   type: conference-paper
-  title: "Deep Learning Based Low Light Enhancements for Advanced Driver-Assistance Systems at Night"
   authors:
     - family-names: "Ranasinghe"
       given-names: "Pamudu"
@@ -41,8 +28,15 @@ preferred-citation:
       given-names: "Maheshi B"
     - family-names: "Lakmal"
       given-names: "H.K.I.S."
+  title: "Deep Learning Based Low Light Enhancements for Advanced Driver-Assistance Systems at Night"
   conference:
     name: "2023 IEEE 17th International Conference on Industrial and Information Systems (ICIIS)"
-  doi: "10.1109/ICIIS58898.2023.10253533"
-  pages: "489-494"
   year: 2023
+  start: 489
+  end: 494
+  doi: "10.1109/ICIIS58898.2023.10253533"
+keywords:
+  - "Low-Light Image Enhancement"
+  - "Autonomous Vehicles"
+  - "Object Detection"
+  - "Advanced Driver-Assistance System"
